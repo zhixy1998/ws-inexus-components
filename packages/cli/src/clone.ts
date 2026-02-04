@@ -109,7 +109,7 @@ const resetComponentsPackageJson = async () => {
 const resetPlayDependence = async () => {
   const replaceFilePaths = [path.join(playPath, "package.json"), path.join(playPath, "src/pages/DemoPage.vue")];
   replaceFilePaths.forEach(filePath => {
-    replaceFileLetters(filePath, "@xuhan57/vue3-lib-template-components", completeName);
+    replaceFileLetters(filePath, "@zhixingyu/ws-inexus-components", completeName);
   });
 };
 

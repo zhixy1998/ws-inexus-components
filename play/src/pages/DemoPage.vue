@@ -6,8 +6,8 @@
 </template>
 
 <script setup lang="ts">
-import {LessButton} from "@xuhan57/vue3-lib-template-components";
-import "@xuhan57/vue3-lib-template-components/style.css";
+import { LessButton } from "@zhixingyu/ws-inexus-components";
+import "@zhixingyu/ws-inexus-components/style.css";
 </script>
 
 <style scoped>

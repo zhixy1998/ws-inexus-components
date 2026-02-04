@@ -10,13 +10,20 @@ export default defineConfig({
     nav: [
       {text: 'Home', link: '/'},
       {text: '简介', link: '/intro'},
-      {text: '快速开始', link: '/start'}
+      {text: '快速开始', link: '/start'},
+      { text: '组件', link: '/components' }
     ],
 
     sidebar: [
       {text: '简介', link: '/intro'},
       {text: '快速开始', link: '/start'},
       {text: '打包发布', link: '/publish'},
+      {
+        text: '组件',
+        items: [
+          { text: '折线图', link: '/components/ws-lines-chart' } // 折线图子项
+        ]
+      }
     ],
 
     socialLinks: [

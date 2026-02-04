@@ -1,10 +1,10 @@
 {
-  "name": "@xuhan57/vue3-lib-template-components",
+  "name": "@zhixingyu/ws-inexus-components",
   "version": "0.0.0",
   "description": "vue3 组件库模板",
   "keywords": [
     "vue3-lib-template",
-    "vue3-lib-template-components",
+    "ws-inexus-components",
     "vue",
     "vue3",
     "lib",
@@ -14,7 +14,7 @@
   "author": "Mayer",
   "license": "MIT",
   "private": false,
-  "homepage": "https://maylisten.github.io/vue3-lib-template",
+  "homepage": "https://github.com/zhixy1998/vue3-lib-template",
   "types": "index.d.ts",
   "type": "module",
   "files": [
@@ -22,14 +22,14 @@
     "LICENSE",
     "README.md"
   ],
-  "main": "./lib/vue3-lib-template-components.cjs",
-  "module": "./lib/vue3-lib-template-components.js",
-  "browser": "./lib/vue3-lib-template-components.umd.cjs",
+  "main": "./lib/ws-inexus-components.cjs",
+  "module": "./lib/ws-inexus-components.js",
+  "browser": "./lib/ws-inexus-components.umd.cjs",
   "style": "./lib/style.css",
   "exports": {
     ".": {
-      "import": "./lib/vue3-lib-template-components.js",
-      "require": "./lib/vue3-lib-template-components.cjs",
+      "import": "./lib/ws-inexus-components.js",
+      "require": "./lib/ws-inexus-components.cjs",
       "types": "./lib/index.d.ts"
     },
     "./style.css": {
@@ -51,5 +51,8 @@
   "scripts": {
     "build": "vue-tsc --project ../../tsconfig.json && vite build",
     "release": "release-it"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0"
   }
 }

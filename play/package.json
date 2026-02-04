@@ -10,7 +10,7 @@
     "dev": "vite"
   },
   "dependencies": {
-    "@xuhan57/vue3-lib-template-components": "workspace:^",
+    "@zhixingyu/ws-inexus-components": "workspace:^",
     "pinia": "^2.2.2",
     "vue-router": "^4.4.3"
   }

@@ -13,7 +13,12 @@ export default defineConfig({
   plugins: [
     vue(),
     eslint({
-      include: ['src/**/*.js', 'src/**/*.vue', 'src/*.js', 'src/*.vue']
+      include: ['src/**/*.js', 'src/**/*.vue', 'src/*.js', 'src/*.vue'],
+      overrideConfig:{
+        rules: {
+          "@typescript-eslint/no-explicit-any": "off"
+        }
+      }
     }),
     dts({
       tsconfigPath: "../../tsconfig.components.json",
