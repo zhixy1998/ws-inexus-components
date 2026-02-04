@@ -44,5 +44,7 @@
     "vite-plugin-dts": "^4.2.3",
     "vite-plugin-eslint": "^1.8.1",
     "vue-tsc": "^2.0.29"
-  }
+  },
+  "name": "",
+  "version": ""
 }
