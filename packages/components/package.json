@@ -14,7 +14,6 @@
   "author": "Mayer",
   "license": "MIT",
   "private": false,
-  "homepage": "https://github.com/zhixy1998/vue3-lib-template",
   "types": "index.d.ts",
   "type": "module",
   "files": [
@@ -37,13 +36,6 @@
       "require": "./lib/style.css",
       "default": "./lib/style.css"
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhixy1998/vue3-lib-template"
-  },
-  "bugs": {
-    "url": "https://github.com/zhixy1998/vue3-lib-template/issues"
   },
   "engines": {
     "node": ">= 18.0.0"
