@@ -27,7 +27,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      {icon: 'github', link: 'https://github.com/Maylisten/vue3-lib-template'}
+      {icon: 'github', link: 'https://github.com/zhixy1998/vue3-lib-template'}
     ]
   },
   base: "/vue3-lib-template",

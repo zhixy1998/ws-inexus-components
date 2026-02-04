@@ -40,10 +40,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maylisten/vue3-lib-template"
+    "url": "git+https://github.com/zhixy1998/vue3-lib-template"
   },
   "bugs": {
-    "url": "https://github.com/Maylisten/vue3-lib-template/issues"
+    "url": "https://github.com/zhixy1998/vue3-lib-template/issues"
   },
   "engines": {
     "node": ">= 18.0.0"
