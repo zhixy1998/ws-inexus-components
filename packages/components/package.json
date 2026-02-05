@@ -1,6 +1,6 @@
 {
   "name": "@zhixingyu/ws-inexus-components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "vue3 组件库模板",
   "publishConfig": {
     "access": "public"
